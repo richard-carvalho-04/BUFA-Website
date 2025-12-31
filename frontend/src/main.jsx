@@ -10,7 +10,6 @@ import Contact from './Components/Contact/Contact.jsx'
 import User from './Components/User/User.jsx'
 import News from './Components/News/News.jsx'
 import App  from './App.jsx'
-import AdminDashboard from './Components/Admin/AdminDashboard.jsx'
 
 const router=createBrowserRouter(
   createRoutesFromElements(
@@ -23,7 +22,6 @@ const router=createBrowserRouter(
       <Route path='app' element={<App/>}/>
       <Route path='user' element={<User/>}>
       <Route path=':userid' element={<User/>}/>
-      <Route path='admin' element={<AdminDashboard/>}/>
       </Route>
     </Route>
   )
