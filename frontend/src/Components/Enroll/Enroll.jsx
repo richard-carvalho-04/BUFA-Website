@@ -92,7 +92,7 @@ function Enroll() {
       <form onSubmit={handleSubmit}>
         {/* Student Information */}
         <section className="mb-6">
-          <h3 className="text-xl font-semibold mb-4">Student Information</h3>
+          <h3 className="text-xl font-semibold mb-4">Player Information</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium mb-1">

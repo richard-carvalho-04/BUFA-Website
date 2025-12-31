@@ -3,7 +3,7 @@ import { PinContainer } from "../ui/3d-pin";
 
 export function Locationpin() {
     return (
-        <div className="h-[40rem] w-full flex items-center justify-center ">
+        <div className="h-auto mt-28 mb-16 max-h-[20rem] w-full flex items-center justify-center ">
             <PinContainer title="Click to find us" href="https://maps.app.goo.gl/V8Kpa2ufAf95mSCw6">
                 <div 
                     className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
@@ -28,30 +28,3 @@ export function Locationpin() {
         </div>
     );
 }
-
-
-// import React from "react";
-// import { PinContainer } from "../ui/3d-pin";
-
-// export function Locationpin() {
-//   return (
-//     <div className="h-[40rem] w-full flex items-center justify-center ">
-//       <PinContainer title="Click to go to find us" href="https://maps.app.goo.gl/NbLc8F7GqiF9hQN38">
-//         <div
-//           className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
-//           <h3 className="max-w-xs !pb-2 !m-0 font-bold text-base text-slate-100">
-//             Find Us Here
-//           </h3>
-//           <div className="text-base !m-0 !p-0 font-normal">
-//             <span className="text-slate-500">
-//               Actually We Are Everywhere
-//             </span>
-//           </div>
-//           <div
-//             className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br  from-purple-500 to-yellow-300" />
-
-//         </div>
-//       </PinContainer>
-//     </div>
-//   );
-// }
